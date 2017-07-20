@@ -1,0 +1,12 @@
+.DS_Store
+.DS_Store?
+
+# Emacs stuff
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*

@@ -1,0 +1,17 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Caleb Jones
+	email = caleb@teamgantt.com
+[core]
+	excludesfile = /Users/calebjones/.gitignore_global
+	editor = atom --wait
+[push]
+	default = simple
+[alias]
+  tree = log --graph --all --decorate --pretty=oneline --abbrev-commit
+[rebase]
+	autosquash = true
